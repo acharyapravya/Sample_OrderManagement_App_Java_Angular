@@ -1,0 +1,41 @@
+.card {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  align-items: center;
+}
+
+.card-img {
+  width: 150px;
+  height: 166px;
+  padding: 10px 40px;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.bars {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.bar {
+  width: 70px;
+  height: 4px;
+  background-color: #0758bd;
+  margin-right: 5px;
+}
+
+.details {
+  color: #9a9a9a;
+}
+
+.status {
+  color: #7a7a7a;
+  font-size: 13px;
+}

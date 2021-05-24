@@ -1,0 +1,14 @@
+<div class="card" (click)="navigateTo()">
+  <img class="card-img" src="assets/images/redmi9.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <app-order-status [complete]="item?.complete" [status]="isNewShipDate() ? 'need-user-accept': item?.status"
+      size="small"></app-order-status>
+    <div class="status">{{getStatus()}}</div>
+    <div class="title">{{item?.name}}</div>
+    <div class="details">
+      <span>{{item?.details?.color}}</span><br />
+      <span>{{item?.details?.size}}</span><br />
+      <span>Qty: {{item.quantity}}</span><br />
+    </div>
+  </div>
+</div>
